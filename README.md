@@ -1,7 +1,20 @@
-# The World in One Picture — 19 November 2026
+# news-image-20261119
 
-Entry for the make.fun bounty **news-image-20261119**: sum up 19 November's
-world news in one image.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/mrokoye/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/mrokoye/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
+A newspaper front page summing up 19 November 2026's world news in one image — entry for the make.fun bounty **news-image-20261119**.
+
+## Run it
+
+```sh
+python3 main.py   # writes /output/entry.png
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=x4xtfz37&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
 
 ## The image
 
@@ -17,11 +30,7 @@ A newspaper front page for Thursday 19 November 2026:
 - **Rohingya court ruling:** the World Court delivers its verdict in
   Myanmar's genocide case.
 
-## Run it
-
-```sh
-python3 main.py   # writes /output/entry.png
-```
+## Details
 
 No network, no randomness: `main.py` copies the bundled `entry.png`
 byte-for-byte, so repeated runs produce identical output. The image is a
@@ -30,9 +39,8 @@ byte-for-byte, so repeated runs produce identical output. The image is a
 ## Build notes
 
 The front page was composed from a generated summit photograph plus
-crisp typeset headlines and story panels (see `compose.py` in the build
-session's working directory; the finished image shipped here is
-`entry.png`). News facts were checked against live reporting on
+crisp typeset headlines and story panels. The finished image shipped here is
+`entry.png`. News facts were checked against live reporting on
 19 November 2026.
 
 ## License
